@@ -1,0 +1,506 @@
+{
+    "version": "1.14.0",
+    "notificationList": [],
+    "monitorList": [
+        {
+            "id": 1,
+            "name": "stg-sp-api",
+            "url": "https://stg-salepage.moomall.com/api/moomall",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 1,
+                    "monitor_id": 1,
+                    "tag_id": 1,
+                    "value": "",
+                    "name": "stg",
+                    "color": "#4B5563"
+                },
+                {
+                    "id": 4,
+                    "monitor_id": 1,
+                    "tag_id": 3,
+                    "value": "",
+                    "name": "api",
+                    "color": "#DC2626"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "stg-sp-report-ui",
+            "url": "https://stg-salepage.moomall.com/sale-page-report/en/version",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 2,
+                    "monitor_id": 2,
+                    "tag_id": 1,
+                    "value": "",
+                    "name": "stg",
+                    "color": "#4B5563"
+                },
+                {
+                    "id": 3,
+                    "monitor_id": 2,
+                    "tag_id": 2,
+                    "value": "",
+                    "name": "ui",
+                    "color": "#2563EB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "stg-guide-api",
+            "url": "https://stg-guide.moomall.com/api/healthz",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 6,
+                    "monitor_id": 3,
+                    "tag_id": 1,
+                    "value": "",
+                    "name": "stg",
+                    "color": "#4B5563"
+                },
+                {
+                    "id": 7,
+                    "monitor_id": 3,
+                    "tag_id": 3,
+                    "value": "",
+                    "name": "api",
+                    "color": "#DC2626"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "stg-guide-ui",
+            "url": "https://stg-guide.moomall.com/dashboard/news",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": "admin11admin",
+            "basic_auth_pass": "admin11admin",
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 8,
+                    "monitor_id": 4,
+                    "tag_id": 1,
+                    "value": "",
+                    "name": "stg",
+                    "color": "#4B5563"
+                },
+                {
+                    "id": 9,
+                    "monitor_id": 4,
+                    "tag_id": 2,
+                    "value": "",
+                    "name": "ui",
+                    "color": "#2563EB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "sp-report-ui",
+            "url": "https://salepage.moomall.com/sale-page-report/en/version",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 60,
+            "retryInterval": 60,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 10,
+                    "monitor_id": 5,
+                    "tag_id": 4,
+                    "value": "",
+                    "name": "prd",
+                    "color": "#059669"
+                },
+                {
+                    "id": 11,
+                    "monitor_id": 5,
+                    "tag_id": 2,
+                    "value": "",
+                    "name": "ui",
+                    "color": "#2563EB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "sp-api",
+            "url": "https://salepage.moomall.com/api/moomall",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 12,
+                    "monitor_id": 6,
+                    "tag_id": 4,
+                    "value": "",
+                    "name": "prd",
+                    "color": "#059669"
+                },
+                {
+                    "id": 13,
+                    "monitor_id": 6,
+                    "tag_id": 3,
+                    "value": "",
+                    "name": "api",
+                    "color": "#DC2626"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "guide-api",
+            "url": "https://guide.moomall.com/api/healthz",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 14,
+                    "monitor_id": 7,
+                    "tag_id": 4,
+                    "value": "",
+                    "name": "prd",
+                    "color": "#059669"
+                },
+                {
+                    "id": 15,
+                    "monitor_id": 7,
+                    "tag_id": 3,
+                    "value": "",
+                    "name": "api",
+                    "color": "#DC2626"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "guide-ui",
+            "url": "https://guide.moomall.com/admin/login",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 16,
+                    "monitor_id": 8,
+                    "tag_id": 4,
+                    "value": "",
+                    "name": "prd",
+                    "color": "#059669"
+                },
+                {
+                    "id": 17,
+                    "monitor_id": 8,
+                    "tag_id": 2,
+                    "value": "",
+                    "name": "ui",
+                    "color": "#2563EB"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "stg-sp-ui",
+            "url": "https://stg-salepage.moomall.com/",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 18,
+                    "monitor_id": 9,
+                    "tag_id": 1,
+                    "value": "",
+                    "name": "stg",
+                    "color": "#4B5563"
+                },
+                {
+                    "id": 19,
+                    "monitor_id": 9,
+                    "tag_id": 2,
+                    "value": "",
+                    "name": "ui",
+                    "color": "#2563EB"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "sp-ui",
+            "url": "https://salepage.moomall.com",
+            "method": "GET",
+            "body": null,
+            "headers": null,
+            "basic_auth_user": null,
+            "basic_auth_pass": null,
+            "hostname": null,
+            "port": null,
+            "maxretries": 0,
+            "weight": 2000,
+            "active": 1,
+            "type": "http",
+            "interval": 30,
+            "retryInterval": 30,
+            "keyword": null,
+            "expiryNotification": false,
+            "ignoreTls": false,
+            "upsideDown": false,
+            "maxredirects": 10,
+            "accepted_statuscodes": [
+                "200-299"
+            ],
+            "dns_resolve_type": "A",
+            "dns_resolve_server": "1.1.1.1",
+            "dns_last_result": null,
+            "pushToken": null,
+            "proxyId": null,
+            "notificationIDList": {},
+            "tags": [
+                {
+                    "id": 20,
+                    "monitor_id": 10,
+                    "tag_id": 4,
+                    "value": "",
+                    "name": "prd",
+                    "color": "#059669"
+                },
+                {
+                    "id": 21,
+                    "monitor_id": 10,
+                    "tag_id": 2,
+                    "value": "",
+                    "name": "ui",
+                    "color": "#2563EB"
+                }
+            ]
+        }
+    ]
+}
